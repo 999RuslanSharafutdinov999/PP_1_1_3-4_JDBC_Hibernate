@@ -67,7 +67,6 @@ public class UserDaoHibernateImpl implements UserDao {
 
             transaction.commit();
 
-            System.out.println("User " + name + " добавлен");
         } catch (Exception e) {
             if (transaction != null){
                 transaction.rollback();

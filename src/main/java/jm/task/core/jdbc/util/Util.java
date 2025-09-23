@@ -22,9 +22,9 @@ public class Util {
 
                 Properties properties = new Properties();
                 properties.put("hibernate.connection.driver_class", "com.mysql.cj.jdbc.Driver");
-                properties.put("hibernate.connection.url", "jdbc:mysql://localhost:3306/usersBase");
-                properties.put("hibernate.connection.username", "Ruslan");
-                properties.put("hibernate.connection.password", "Amplified8908.");
+                properties.put("hibernate.connection.url", URL);
+                properties.put("hibernate.connection.username", USER);
+                properties.put("hibernate.connection.password", PASSWORD);
 
                 properties.put("hibernate.dialect", "org.hibernate.dialect.MySQL8Dialect");
                 properties.put("hibernate.show_sql", "true");
